@@ -64,7 +64,7 @@ Invoke-WebRequest -Uri "http://127.0.0.1:5000/health" -Method GET
 ```
 Пример (curl):
 
-curl http://127.0.0.1:5000/health
+```curl http://127.0.0.1:5000/health```
 
 Пример ответа:
 
@@ -102,9 +102,10 @@ $body = @{
   -Body $body).Content
 ```
 Пример запроса (curl):   
-curl -X POST http://127.0.0.1:5000/predict \
+```curl -X POST http://127.0.0.1:5000/predict \
   -H "Content-Type: application/json" \
   -d '{"features": [20000,2,2,1,24,2,2,0,0,0,0,3913,3102,689,0,0,0,0,689,0,0,0,0]}'
+```
 
 **Пример ответа:**
 
