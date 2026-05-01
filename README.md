@@ -158,6 +158,7 @@ https://hub.docker.com/r/nezhablack/credit-default-api
 docker pull nezhablack/credit-default-api:latest
 docker run -p 5000:5000 nezhablack/credit-default-api:latest
 ```
+<img width="1708" height="196" alt="image" src="https://github.com/user-attachments/assets/b5b608c7-400d-4b00-9358-c7d239f70c31" />
 
 ## 8. Бизнес‑метрики и A/B‑тестирование
 
